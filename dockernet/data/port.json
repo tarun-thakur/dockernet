@@ -1,0 +1,27 @@
+{
+    "ports": [
+        {
+            "id": "OVS_IFACE_ID",
+            "network_id": "NETWORK_ID",
+            "name": "PORT_NAME",
+            "admin_state_up": true,
+            "mac_address": "PORT_MAC_ADDR",
+            "fixed_ips": [
+                {
+                    "ip_address": "PORT_IP_ADDR",
+                    "subnet_id": "SUBNET_ID"
+                }
+            ],
+            "device_owner": "compute:nova",
+            "device_id": "DEVICE_ID", 
+            "allowed_address_pairs": [],
+            "binding:host_id": "osc-pike-ubuntu16",
+            "binding:vnic_type": "normal",
+            "binding:vif_type": "ovs",
+            "Map": {
+            },
+            "extra_dhcp_opts": [],
+            "port_security_enabled": "PORT_SEC_ENABLED"
+        }
+    ]
+}

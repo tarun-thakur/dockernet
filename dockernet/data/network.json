@@ -1,0 +1,10 @@
+{
+    "networks": [
+                {
+                    "id": "a8b0d7a2-1111-2222-3333-92d8960db599",
+                    "provider:segmentation_id": "82",
+                    "provider:network_type" : "vxlan",
+                    "name": "network1"
+                }
+            ]
+}
